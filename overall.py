@@ -1,9 +1,7 @@
-
 from car_utils import create_car_from_input, display_cars
 
-
 def main():
-    cars = {}  # Dictionary to store cars with car_id as key and car objects as values
+    cars = {}
 
     while True:
         print("\nMenu:")
@@ -16,21 +14,18 @@ def main():
         choice = input("Choose an option:\n")
 
         if choice == '1':
-            
             car = create_car_from_input()
             cars[car.car_id] = car
             print(car)
             print("Car added.")
 
         elif choice == '2':
-            
             display_cars(cars)
 
         elif choice == '3':
             car_id = input("Enter the car ID to drive:\n")
             miles = float(input("How many miles to drive?\n"))
 
-           
             if car_id in cars:
                 cars[car_id].drive(miles)
                 print("Mileage updated.")
@@ -40,7 +35,6 @@ def main():
             car_id = input("Enter the car ID to paint:\n")
             new_color = input("Enter the new color:\n")
 
-            
             if car_id in cars:
                 cars[car_id].change_color(new_color)
                 print("Color updated.")
@@ -52,7 +46,6 @@ def main():
 
         else:
             print("Invalid option. Please try again.")
-
 
 if __name__ == "__main__":
     main()

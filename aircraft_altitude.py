@@ -1,10 +1,10 @@
 from aircraft import Aircraft
 
-model = input("Enter aircraft model:")
+model = input("Enter aircraft model:\n")
 plane = Aircraft(model)
 
 while True:
-    command = input("Enter command (A for ascent, D for descent, X to exit):")
+    command = input("Enter command (A for ascent, D for descent, X to exit):\n")
 
     if command == "X":
         break
@@ -14,8 +14,8 @@ while True:
     value = int(parts[1])
 
     if action == "A":
-        plane.ascend(value)
+        plane.ascent(value)
     elif action == "D":
-        plane.descend(value)
+        plane.descent(value)
 
 print(f"Final altitude: {plane.altitude} feet")

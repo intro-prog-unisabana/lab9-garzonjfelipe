@@ -3,7 +3,7 @@ Lab 9
 /****************************************************************************
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
-Número de horas:
+Número de horas:12
 
 
 /****************************************************************************
@@ -12,18 +12,18 @@ Número de horas:
 
 ¿Sí o no?
 
-
+NO
 /****************************************************************************
 * Escribe cualquier otro comentario aquí.
 ******************************************************************************/
 
-
+laboratorio 9
 
 /****************************************************************************
  *  Proporciona el enlace de tu perfil de GitHub (ej. https://github.com/afbeltranp)
  ******************************************************************************/
 
-[escribe el enlace aquí]
+[escribe el enlace aquí]https://github.com/garzonjfelipe
 
 /****************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -35,3 +35,4 @@ Número de horas:
  ******************************************************************************/
 
 [escribe y firma la declaración aquí]
+/s/JuanFe
